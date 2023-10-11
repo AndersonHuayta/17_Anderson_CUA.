@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <div class="imagen-izquierda">
+      <img src="/img/Logo-VG_Tpt02.png" alt="">
+    </div>
+    <div class="contenido-derecha">
+      
+        <h2>BIENVENIDOS</h2>
+
+      <input type="radio" name="curso" value="analisis_de_sistemas">Análisis de Sistemas
+      <input type="radio" name="curso" value="produccion_agraria">Producción Agraria
+      <input type="text" placeholder="Nombre Completo" pattern="^[a-zA-Z ]+$" class="campo">
+      <input type="text" placeholder="Apellidos" class="campo" pattern="^[a-zA-Z0-9@]+$">
+      <input type="number" placeholder="Edad" class="campo">
+      <input type="email" placeholder="Correo" class="campo">
+      <input type="password" placeholder="Contraseña" class="campo">
+      <input type="checkbox" id="aceptar_politica_privacidad" class="campo">
+      <a href="/politica-privacidad">¿Olvidó su contraseña?</a>
+      <label for="aceptar_politica_privacidad">Aceptar la política de privacidad</label>
+      <input type="submit" value="Registrarme" class="boton">
+
+    </div>
+  </form>
+</body>
+</html>
+
